@@ -1,0 +1,21 @@
+
+#logo, .logo{
+  color: #454545;
+  font-weight: bold;
+}
+.logo{
+  inherits: all;
+  content: '';
+  
+}
+.logo::before{
+  content: '<';
+  color: #FF7518;
+  font-family: inherit;
+}
+.logo::after{
+  content: '/>';
+  color: #FF7518;
+  font-family: inherit;
+}
+
